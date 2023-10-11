@@ -9,15 +9,6 @@ public class AccountBankMembers {
     public double withdraw;
     public double balance = 00.00;
 
-    public AccountBankMembers() {
-        this.account = account;
-        this.name = name;
-        this.depositInitial = depositInitial;
-        this.answer = answer;
-        this.withdraw = withdraw;
-        this.balance = balance;
-    }
-
     public int setAccount(int account) {
         this.account = account;
         return account;
