@@ -5,7 +5,6 @@ public class AccountBankMembers {
     public String name;
     public double depositInitial;
     public double deposit;
-    public String answer;
     public double withdraw;
     public double balance = 00.00;
 
