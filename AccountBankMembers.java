@@ -53,12 +53,12 @@ public class AccountBankMembers {
         return "Account Data: " + this.account + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + taxValue();
     }
     public String toString4(){
-        return "Updated account data: %n" + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + addDeposit();
+        return "Updated account data: %n" + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + addDeposit();
     }
     public String toString5(){
-        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + getBalance();
+        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + getBalance();
     }
     public String toString6(){
-        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + negativeValue();
+        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + negativeValue();
     }
 }
