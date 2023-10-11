@@ -19,9 +19,11 @@ public class AccountBank {
             System.out.println("Enter a initial value: ");
             accountBankMembers.depositInitial = scan.nextDouble();
             System.out.println(accountBankMembers.toString());
+            
             System.out.println("Enter a deposit value: ");
             accountBankMembers.deposit = scan.nextDouble();
             System.out.println(accountBankMembers.toString2());
+            
             System.out.println("Enter a withdraw value: ");
             accountBankMembers.withdraw = scan.nextDouble();
             System.out.println(accountBankMembers.toString3());
@@ -31,6 +33,7 @@ public class AccountBank {
             System.out.println("Enter a deposit value: ");
             accountBankMembers.deposit = scan.nextDouble();
             System.out.println(accountBankMembers.toString2());
+            
             System.out.println("Enter a withdraw value: ");
             accountBankMembers.withdraw = scan.nextDouble();
             System.out.println(accountBankMembers.toString6());
