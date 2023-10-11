@@ -14,8 +14,8 @@ public class AccountBank {
         System.out.println("Enter a account holder: ");
         accountBankMembers.name = scan.next();
         System.out.println("Is there na initial deposit (y/n) ? ");
-        accountBankMembers.answer = scan.next();
-        if (accountBankMembers.answer.equals("y")){
+        String answer = scan.next();
+        if (answer.equals("y")){
             System.out.println("Enter a initial value: ");
             accountBankMembers.depositInitial = scan.nextDouble();
             System.out.println(accountBankMembers.toString());
@@ -26,7 +26,7 @@ public class AccountBank {
             accountBankMembers.withdraw = scan.nextDouble();
             System.out.println(accountBankMembers.toString3());
 
-        }else if (accountBankMembers.answer.equals("n")){
+        }else if (answer.equals("n")){
             System.out.println(accountBankMembers.toString5());
             System.out.println("Enter a deposit value: ");
             accountBankMembers.deposit = scan.nextDouble();
