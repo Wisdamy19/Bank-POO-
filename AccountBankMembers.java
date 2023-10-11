@@ -35,21 +35,21 @@ public class AccountBankMembers {
         return (deposit - withdraw - 5.00f);
     }
     public String toString(){
-        return "Account Data: " + this.account + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + this.depositInitial;
+        return "Account Data: " + this.getAccount() + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + this.depositInitial;
     }
     public String toString2(){
-        return "Account Data: " + this.account + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + addDeposit();
+        return "Account Data: " + this.getAccount() + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + addDeposit();
     }
     public String toString3(){
-        return "Account Data: " + this.account + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + taxValue();
+        return "Account Data: " + this.getAccount() + ", " + "Holder: " + this.getName() + ", " + "Balance: " + "$" + taxValue();
     }
     public String toString4(){
-        return "Updated account data: %n" + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + addDeposit();
+        return "Updated account data: %n" + this.getAccount() + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + addDeposit();
     }
     public String toString5(){
-        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + getBalance();
+        return "Updated account data: " + this.getAccount() + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + getBalance();
     }
     public String toString6(){
-        return "Updated account data: " + this.account + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + negativeValue();
+        return "Updated account data: " + this.getAccount() + ", " + "Holder: " + this.name + ", " + "Balance: " + "$" + negativeValue();
     }
 }
