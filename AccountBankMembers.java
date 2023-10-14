@@ -8,9 +8,8 @@ public class AccountBankMembers {
     public double withdraw;
     public double balance = 00.00;
 
-    public int setAccount(int account) {
+    public void setAccount(int account) {
         this.account = account;
-        return account;
     }
     public int getAccount(){
         return account;
